@@ -1,0 +1,68 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    min-height: 90vh;
+    justify-content: center;
+    &__imgContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 90px;
+        &--img{
+            width: 100px;
+        }
+        &--title{
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    &__buttons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px 20px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        &--button{
+            width: 130px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        &--button:hover{
+            box-shadow: 0 1px 1px rgba(rgb(3, 3, 3), .15),
+                        0 3px 10px rgba(rgb(3, 3, 3), .15),
+                        0 3px 20px rgba(rgb(5, 5, 5), .35);
+        }
+    }
+}
+.logo{
+    width: 30px;
+}
+.linkhref{
+    text-decoration: none;
+}
+.containerButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.button{
+    width: 100px;
+    background-color: lightsalmon;
+    border-radius: 5px;
+    padding: 10px;
+}
+.button:hover{
+    box-shadow: 0 1px 1px rgba(rgb(3, 3, 3), .15),
+                0 3px 10px rgba(rgb(3, 3, 3), .15),
+                0 3px 20px rgba(rgb(5, 5, 5), .35);
+}

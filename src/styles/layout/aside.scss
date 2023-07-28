@@ -1,0 +1,49 @@
+.aside{
+    background-color: rgb(247, 178, 150);
+    width: 90vw;
+    min-height: 80vh;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    &__img{
+        width: 200px;
+        &--src{
+            width: 100%;
+            border-radius: 15px;
+        }
+    }
+    &__info{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        &--name{
+            font-weight: bold;
+        }
+        &--desc{
+            font-size: 18px;
+        }
+    }
+    &__buttons{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        &--click{
+            cursor: pointer;
+            padding: 10px 20px;
+            width: 150px;
+            border-radius: 10px;
+            background-color: lightsalmon;
+        }
+    }
+}
+.aside__buttons--click:hover{
+    box-shadow: 0 1px 1px rgba(rgb(3, 3, 3), .15),
+                0 3px 10px rgba(rgb(3, 3, 3), .15),
+                0 3px 20px rgba(rgb(5, 5, 5), .35);
+}

@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    border-top: 1px solid lightsalmon;
+    &__name{
+        color: grey;
+        font-size: 15px;
+    }
+    &__logo{
+        width: 40px;
+    }
+}

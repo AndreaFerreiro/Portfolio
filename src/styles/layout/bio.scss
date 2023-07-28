@@ -1,0 +1,73 @@
+.bio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &__perfil{
+        margin-top: 80px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 0 30px;
+    }
+    &__biograph{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 10px;
+        padding: 0 30px;
+        &--title{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        &--text{
+            text-align: center;
+        }
+    }
+}
+.img{
+    &__src{
+        width: 70px;
+        border-radius: 10px;
+    }
+}
+.info{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    &__name{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    &__button{
+        width: 100px;
+        background-color: lightsalmon;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    &__button:hover{
+        box-shadow: 0 1px 1px rgba(rgb(3, 3, 3), .15),
+                0 3px 10px rgba(rgb(3, 3, 3), .15),
+                0 3px 20px rgba(rgb(5, 5, 5), .35);
+    }
+}
+.containerButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.button{
+    width: 100px;
+    background-color: lightsalmon;
+    border-radius: 5px;
+    padding: 10px;
+}
+.button:hover{
+    box-shadow: 0 1px 1px rgba(rgb(3, 3, 3), .15),
+                0 3px 10px rgba(rgb(3, 3, 3), .15),
+                0 3px 20px rgba(rgb(5, 5, 5), .35);
+}

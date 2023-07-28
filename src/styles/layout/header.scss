@@ -1,0 +1,16 @@
+.header {
+    position:fixed;
+    width: 100vw;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px 20px ;
+    &__img{
+      width: 40px;
+    }
+    &__title{
+      color: white;
+    }
+  }
