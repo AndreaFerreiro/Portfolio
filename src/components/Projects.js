@@ -4,6 +4,7 @@ import Disney from '../images/Disney.png';
 import RickMorty from '../images/RickMorty.png';
 import Awesome from '../images/Awesome.png';
 import Brujas from '../images/Brujas.png';
+import Junior from '../images/junior.png';
 import {Link} from 'react-router-dom';
 const Projects = () => {
     return (
@@ -11,6 +12,16 @@ const Projects = () => {
             <span className='title'>Bienvenid@ a mi Portfolio</span>
             <p className='desc'>Aquí podrás ver los proyectos que he ido desarrollando durante mi aprendizaje como programadora web.</p>
             <ul className="list">
+                <a target="_blank" className="linkhref" href="https://programadoras-junior.onrender.com/">
+                    <li className="element">
+                    <img className="element__img" src={Junior}></img>
+                    <div className="element__info">
+                        <span className="element__info--title">Programadoras Junior</span>
+                        <p className="element__info--desc">Aplicación web en la que poder ver y/o subir proyectos</p>
+                        <p className="element__info--tech">HTML5 - CSS3 - REACT - EXPRESS - SQL - FREEDB</p>
+                    </div>
+                    </li>
+                </a>
                 <a target="_blank" className="linkhref" href="https://andreaferreiro.github.io/project-promo-t-module-1-team-4/">
                     <li className="element">
                     <img className="element__img" src={Brujas}></img>
