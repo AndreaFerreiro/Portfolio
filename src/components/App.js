@@ -6,6 +6,7 @@ import Header from './Header';
 import Aside from './Aside';
 import Bio from './Bio';
 import Contact from './Contact';
+import Projects from './Projects';
 import Footer from './Footer';
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
           <Route
             path='/Projects'
             element={
-              <Bio/>
+              <Projects/>
             }>
           </Route>
       </Routes>

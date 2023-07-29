@@ -8,6 +8,7 @@
         gap: 10px;
         align-items: center;
         padding: 0 30px;
+        justify-content: center;
     }
     &__biograph{
         display: flex;
@@ -70,4 +71,27 @@
     box-shadow: 0 1px 1px rgba(rgb(3, 3, 3), .15),
                 0 3px 10px rgba(rgb(3, 3, 3), .15),
                 0 3px 20px rgba(rgb(5, 5, 5), .35);
+}
+@media screen and (min-width: 764px) {
+    .bio{
+        min-height: 95vh;
+        &__perfil{
+            margin-top: 100px;
+            margin-bottom: 40px;
+        }
+    }
+}
+@media screen and (min-width:1024px) {
+    .bio{
+        min-height: 90vh;
+        justify-content: center;
+        &__biograph{
+            width: 80vw;
+        }
+    }
+    .img{
+        &__src{
+            width: 100px;
+        }
+    }
 }

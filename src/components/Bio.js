@@ -11,7 +11,7 @@ const Bio = () => {
                 <div className='info'>
                     <span className='info__name'>Andrea Ferreiro</span>
                     <p className='info__desc'>Junior Full-Stack Developer</p>
-                    <button className='info__button'>Descargar CV</button>
+                    <a href='https://drive.google.com/file/d/1YInMtpAhxMmwxK2qLpbDeXncHaDsc1EZ/view?usp=sharing'><button className='info__button'>Descargar CV</button></a>
                 </div>
             </article>
             <article className='bio__biograph'>
