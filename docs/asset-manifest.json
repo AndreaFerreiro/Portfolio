@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.9ff7a6e9.css",
-    "main.js": "./static/js/main.be9d1326.js",
+    "main.css": "./static/css/main.921828f8.css",
+    "main.js": "./static/js/main.f1b6bcf1.js",
     "static/media/Anominous.png": "./static/media/Anominous.b38931f224f26321ec1d.png",
     "static/media/Disney.png": "./static/media/Disney.1209840d82594dd8b8b1.png",
+    "static/media/Brujas.png": "./static/media/Brujas.4c1db10cfc8879cdeed8.png",
     "static/media/perfil.jpeg": "./static/media/perfil.8c32faf99f6d8505d251.jpeg",
     "static/media/RickMorty.png": "./static/media/RickMorty.f710cce3b6cabe619fe8.png",
+    "static/media/Awesome.png": "./static/media/Awesome.8854477a8eb496230b35.png",
     "static/media/contacto.png": "./static/media/contacto.d15c77f11a4ee91b98b5.png",
     "static/media/twitter.png": "./static/media/twitter.8d26977c4bdf889dc742.png",
     "static/media/github.png": "./static/media/github.4e87ae7ab99586f1825b.png",
@@ -16,11 +18,11 @@
     "static/media/email.png": "./static/media/email.1c685af97bcbd6b02f10.png",
     "static/media/LogoN.png": "./static/media/LogoN.d5df4bb610f218db8f8d.png",
     "index.html": "./index.html",
-    "main.9ff7a6e9.css.map": "./static/css/main.9ff7a6e9.css.map",
-    "main.be9d1326.js.map": "./static/js/main.be9d1326.js.map"
+    "main.921828f8.css.map": "./static/css/main.921828f8.css.map",
+    "main.f1b6bcf1.js.map": "./static/js/main.f1b6bcf1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ff7a6e9.css",
-    "static/js/main.be9d1326.js"
+    "static/css/main.921828f8.css",
+    "static/js/main.f1b6bcf1.js"
   ]
 }
