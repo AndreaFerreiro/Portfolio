@@ -35,11 +35,12 @@
             gap: 10px;
             background-color: white;
             border-radius: 10px;
+            box-shadow: 3px 3px black;
+            cursor: pointer;
         }
         &--button:hover{
-            box-shadow: 0 1px 1px rgba(rgb(3, 3, 3), .15),
-                        0 3px 10px rgba(rgb(3, 3, 3), .15),
-                        0 3px 20px rgba(rgb(5, 5, 5), .35);
+            box-shadow: none;
+            transform: translate(3px, 3px); 
         }
     }
 }
@@ -60,9 +61,10 @@
     background-color: lightsalmon;
     border-radius: 5px;
     padding: 10px;
+    box-shadow: 3px 3px black;
+    cursor: pointer;
 }
 .button:hover{
-    box-shadow: 0 1px 1px rgba(rgb(3, 3, 3), .15),
-                0 3px 10px rgba(rgb(3, 3, 3), .15),
-                0 3px 20px rgba(rgb(5, 5, 5), .35);
+    box-shadow: none;
+    transform: translate(3px, 3px); 
 }
