@@ -53,7 +53,7 @@ const Projects = () => {
                         </div>
                     </li>
                 </a>
-                <a target="_blank"  className="linkhref" href="http://beta.adalab.es/modulo-1-evaluacion-final-AndreaFerreiro/">
+                <a target="_blank"  className="linkhref" href="https://andreaferreiro.github.io/modulo-1-evaluacion-final-AndreaFerreiro/">
                     <li className="element">
                         <img className="element__img" src={Anonymous}></img>
                         <div className="element__info">
@@ -64,13 +64,13 @@ const Projects = () => {
                     </li>
                 </a>
                 
-                <a target="_blank" className="linkhref" href="https://andreaferreiro.github.io/modulo-1-evaluacion-final-AndreaFerreiro/">
+                <a target="_blank" className="linkhref" href="https://andreaferreiro.github.io/project-promo-t-module-1-team-4/">
                     <li className="element">
                         <img className="element__img" src={Brujas}></img>
                         <div className="element__info">
                             <span className="element__info--title">Brujas de la programación</span>
                             <p className="element__info--desc">Página de presentación de las integrantes del grupo</p>
-                            <p className="element__info--tech">HTML5 - CSS3 - JS</p>
+                            <p className="element__info--tech">HTML5 - CSS3</p>
                         </div>
                     </li>
                 </a>
