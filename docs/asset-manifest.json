@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.5f950e24.css",
+    "main.js": "./static/js/main.c1948497.js",
+    "static/media/Anominous.png": "./static/media/Anominous.b38931f224f26321ec1d.png",
+    "static/media/Disney.png": "./static/media/Disney.1209840d82594dd8b8b1.png",
+    "static/media/Brujas.png": "./static/media/Brujas.4c1db10cfc8879cdeed8.png",
+    "static/media/perfil.jpeg": "./static/media/perfil.8c32faf99f6d8505d251.jpeg",
+    "static/media/RickMorty.png": "./static/media/RickMorty.f710cce3b6cabe619fe8.png",
+    "static/media/junior.png": "./static/media/junior.22a0a90e885678cd1f92.png",
+    "static/media/Awesome.png": "./static/media/Awesome.8854477a8eb496230b35.png",
+    "static/media/contacto.png": "./static/media/contacto.d15c77f11a4ee91b98b5.png",
+    "static/media/twitter.png": "./static/media/twitter.8d26977c4bdf889dc742.png",
+    "static/media/github.png": "./static/media/github.4e87ae7ab99586f1825b.png",
+    "static/media/linkedin.png": "./static/media/linkedin.855885b4dcd7617d74d0.png",
+    "static/media/telefono.png": "./static/media/telefono.2eae1ae4ddfb959ea57e.png",
+    "static/media/facebook.png": "./static/media/facebook.9e053ed145d76d4db969.png",
+    "static/media/LogoB.png": "./static/media/LogoB.bc6f42a7d3eb32d6e476.png",
+    "static/media/email.png": "./static/media/email.1c685af97bcbd6b02f10.png",
+    "static/media/LogoN.png": "./static/media/LogoN.d5df4bb610f218db8f8d.png",
+    "index.html": "./index.html",
+    "main.5f950e24.css.map": "./static/css/main.5f950e24.css.map",
+    "main.c1948497.js.map": "./static/js/main.c1948497.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f950e24.css",
+    "static/js/main.c1948497.js"
+  ]
+}
