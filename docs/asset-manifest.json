@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.a53cb36d.css",
-    "main.js": "./static/js/main.d6bf362c.js",
+    "main.js": "./static/js/main.7d4cda54.js",
     "static/media/Anominous.png": "./static/media/Anominous.b38931f224f26321ec1d.png",
     "static/media/Disney.png": "./static/media/Disney.1209840d82594dd8b8b1.png",
     "static/media/Brujas.png": "./static/media/Brujas.4c1db10cfc8879cdeed8.png",
     "static/media/perfil.jpeg": "./static/media/perfil.8c32faf99f6d8505d251.jpeg",
     "static/media/RickMorty.png": "./static/media/RickMorty.f710cce3b6cabe619fe8.png",
     "static/media/junior.png": "./static/media/junior.22a0a90e885678cd1f92.png",
+    "static/media/Friends.jpeg": "./static/media/Friends.fb11f5e05d99a153f91d.jpeg",
     "static/media/Awesome.png": "./static/media/Awesome.8854477a8eb496230b35.png",
     "static/media/contacto.png": "./static/media/contacto.d15c77f11a4ee91b98b5.png",
     "static/media/twitter.png": "./static/media/twitter.8d26977c4bdf889dc742.png",
@@ -20,10 +21,10 @@
     "static/media/LogoN.png": "./static/media/LogoN.d5df4bb610f218db8f8d.png",
     "index.html": "./index.html",
     "main.a53cb36d.css.map": "./static/css/main.a53cb36d.css.map",
-    "main.d6bf362c.js.map": "./static/js/main.d6bf362c.js.map"
+    "main.7d4cda54.js.map": "./static/js/main.7d4cda54.js.map"
   },
   "entrypoints": [
     "static/css/main.a53cb36d.css",
-    "static/js/main.d6bf362c.js"
+    "static/js/main.7d4cda54.js"
   ]
 }
