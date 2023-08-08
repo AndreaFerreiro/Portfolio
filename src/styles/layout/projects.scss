@@ -16,6 +16,10 @@
 }
 .list{
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
 }
 .element{
     width: 80vw;
@@ -25,6 +29,7 @@
     align-items: center;
     justify-content: center;
     padding: 15px 0px;
+    border-radius: 10px;
     gap: 10px;
     box-shadow: 0 1px 1px rgba(rgb(3, 3, 3), .15),
                 0 3px 10px rgba(rgb(3, 3, 3), .15),
@@ -66,23 +71,6 @@
     text-decoration: none;
     color: black;
 }
-.containerButton{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-.button{
-    width: 100px;
-    background-color: lightsalmon;
-    border-radius: 5px;
-    padding: 10px;
-}
-.button:hover{
-    box-shadow: 0 1px 1px rgba(rgb(3, 3, 3), .15),
-                0 3px 10px rgba(rgb(3, 3, 3), .15),
-                0 3px 20px rgba(rgb(5, 5, 5), .35);
-}
 .containerIcons{
   display: flex;
   gap: 10px;
@@ -101,7 +89,7 @@
         width: 70vw;
     }
     .list{
-        display: flex;
+        flex-direction: row;
         gap: 40px;
         align-items: center;
         justify-content: center;

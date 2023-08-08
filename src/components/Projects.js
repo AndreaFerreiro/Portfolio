@@ -5,6 +5,7 @@ import RickMorty from '../images/RickMorty.png';
 import Awesome from '../images/Awesome.png';
 import Brujas from '../images/Brujas.png';
 import Junior from '../images/junior.png';
+import Friends from '../images/Friends.jpeg';
 import {Link} from 'react-router-dom';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -52,6 +53,18 @@ const Projects = () => {
                         </p>
                     </li>
                     <li className="element">
+                        <img className="element__img" src={Friends}></img>
+                        <div className="element__info">
+                            <span className="element__info--title">Frases de Friends</span>
+                            <p className="element__info--desc">Archivo de frases dichas en la serie "Friends"; buscador y formulario para añadir nuevas</p>
+                            <p className="element__info--tech">HTML5 - CSS3 - JS</p>
+                        </div>
+                        <p className='containerIcons'>
+                            <a target="_blank" className="linkhref" href="https://andreaferreiro.github.io/modulo-3-evaluacion-intermedia-AndreaFerreiro/"><FontAwesomeIcon className='icon' icon={faGlobe}/></a>
+                            <a target="_blank" className="linkhref" href="https://github.com/AndreaFerreiro/modulo-3-evaluacion-intermedia-AndreaFerreiro"><FontAwesomeIcon className='icon' icon={faGithub}/></a>
+                        </p>
+                    </li>
+                    <li className="element">
                         <img className="element__img" src={Disney}></img>
                         <div className="element__info">
                             <span className="element__info--title">Disney Characters</span>
@@ -88,9 +101,6 @@ const Projects = () => {
                         </p>
                     </li>
             </ul>
-            <div className='containerButton'>
-                <Link to="/"><button className='button'>Volver</button></Link>
-            </div>
         </div>
         
     )

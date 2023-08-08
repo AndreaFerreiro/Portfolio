@@ -6,11 +6,28 @@
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    padding: 10px 20px ;
+    padding: 10px 10px ;
     &__img{
       width: 40px;
     }
     &__title{
       color: white;
     }
+    &__nav{
+      color: white;
+      display: flex;
+      gap: 10px;
+      font-size: 15px;
+      list-style: none;
+      cursor: pointer;
+    }
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+@media screen and (min-width:764px) {
+  .header{
+    padding: 10px 20px;
   }
+}

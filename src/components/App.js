@@ -1,6 +1,5 @@
 import '../styles/core/reset.scss';
 import '../styles/layout/main.scss';
-import {useLocation, matchPath} from 'react-router';
 import {Link, Route, Routes, useParams} from 'react-router-dom';
 import Header from './Header';
 import Aside from './Aside';

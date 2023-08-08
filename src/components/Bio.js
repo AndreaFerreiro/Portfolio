@@ -1,6 +1,5 @@
 import perfil from '../images/perfil.jpeg';
 import '../styles/layout/bio.scss';
-import {Link} from 'react-router-dom';
 const Bio = () => {
     return (
         <section className='bio'>
@@ -24,9 +23,6 @@ const Bio = () => {
                 Sin miedo a afrontar nuevos desafíos y aprender cosas nuevas, me presento a este mundillo dispuesta a dar lo mejor de mi y convertirme en la programadora web que aspiro ser.
                 </p>
             </article>
-            <div className='containerButton'>
-                <Link to="/"><button className='button'>Volver</button></Link>
-            </div>
         </section>
     )
     

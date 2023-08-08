@@ -50,21 +50,3 @@
 .linkhref{
     text-decoration: none;
 }
-.containerButton{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-.button{
-    width: 100px;
-    background-color: lightsalmon;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 3px 3px black;
-    cursor: pointer;
-}
-.button:hover{
-    box-shadow: none;
-    transform: translate(3px, 3px); 
-}

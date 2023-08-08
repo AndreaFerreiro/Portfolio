@@ -40,9 +40,6 @@ const Contact = () => {
                     <span className='name'>Facebook</span>
                 </button></a>
             </div>
-            <div className='containerButton'>
-                <Link to="/"><button className='button'>Volver</button></Link>
-            </div>
         </section>
     )
 }

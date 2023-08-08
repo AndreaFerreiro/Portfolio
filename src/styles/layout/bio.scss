@@ -48,30 +48,14 @@
         background-color: lightsalmon;
         border-radius: 5px;
         padding: 5px;
-        box-shadow: 3px 3px black;
+        box-shadow: 3px 3px grey;
+        border: grey 1px solid;
         cursor: pointer;
     }
     &__button:hover{
         box-shadow: none;
         transform: translate(3px, 3px); 
     }
-}
-.containerButton{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-.button{
-    width: 100px;
-    background-color: lightsalmon;
-    border-radius: 5px;
-    padding: 10px;
-}
-.button:hover{
-    box-shadow: 0 1px 1px rgba(rgb(3, 3, 3), .15),
-                0 3px 10px rgba(rgb(3, 3, 3), .15),
-                0 3px 20px rgba(rgb(5, 5, 5), .35);
 }
 @media screen and (min-width: 764px) {
     .bio{
