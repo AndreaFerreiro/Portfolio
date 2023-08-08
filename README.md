@@ -24,4 +24,4 @@ The objectives were to create a **landing page** that presents the web, and allo
 - `Vs Code`
 - `GitHub` `Git`
 
-  ## I hope you enjoy it!!
+## I hope you enjoy it!!
