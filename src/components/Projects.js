@@ -6,6 +6,8 @@ import Awesome from '../images/Awesome.png';
 import Brujas from '../images/Brujas.png';
 import Junior from '../images/junior.png';
 import Friends from '../images/Friends.jpeg';
+import Mole from '../images/whackAMole.jpeg';
+import ConnectFour from '../images/connect.png';
 import {Link} from 'react-router-dom';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -101,8 +103,34 @@ const Projects = () => {
                         </p>
                     </li>
             </ul>
+            <span className='desc'>Vamos a jugar!!</span>
+            <ul className='list'>
+                <li className="element">
+                    <img className="element__img" src={Mole}></img>
+                    <div className="element__info">
+                        <span className="element__info--title">Whack-a-Mole</span>
+                        <p className="element__info--desc">Atrapa el topo todas las veces que puedas en un minuto, sé rápido!</p>
+                        <p className="element__info--tech">HTML5 - CSS3 - JS</p>
+                    </div>
+                    <p className='containerIcons'>
+                        <a target="_blank" className="linkhref" href="https://andreaferreiro.github.io/Whack-a-mole/"><FontAwesomeIcon className='icon' icon={faGlobe}/></a>
+                        <a target="_blank" className="linkhref" href="https://github.com/AndreaFerreiro/Whack-a-mole"><FontAwesomeIcon className='icon' icon={faGithub}/></a>
+                    </p>
+                 </li>
+                 <li className="element">
+                    <img className="element__img" src={ConnectFour}></img>
+                    <div className="element__info">
+                        <span className="element__info--title">Connect Four</span>
+                        <p className="element__info--desc">Enfréntate a tu adversario y consigue alinear 4 de tus fichas para ganar!</p>
+                        <p className="element__info--tech">HTML5 - CSS3 - JS</p>
+                    </div>
+                    <p className='containerIcons'>
+                        <a target="_blank" className="linkhref" href="https://andreaferreiro.github.io/Connect-Four/"><FontAwesomeIcon className='icon' icon={faGlobe}/></a>
+                        <a target="_blank" className="linkhref" href="https://github.com/AndreaFerreiro/Connect-Four"><FontAwesomeIcon className='icon' icon={faGithub}/></a>
+                    </p>
+                 </li>
+            </ul>
         </div>
-        
     )
 }
 export default Projects;
