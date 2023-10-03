@@ -8,6 +8,7 @@ import Junior from '../images/junior.png';
 import Friends from '../images/Friends.jpeg';
 import Mole from '../images/whackAMole.jpeg';
 import ConnectFour from '../images/connect.png';
+import Snake from '../images/snake.jpeg';
 import {Link} from 'react-router-dom';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -130,10 +131,10 @@ const Projects = () => {
                     </p>
                  </li>
                  <li className="element">
-                    <img className="element__img" src={ConnectFour}></img>
+                    <img className="element__img" src={Snake}></img>
                     <div className="element__info">
                         <span className="element__info--title">Snake</span>
-                        <p className="element__info--desc">Atrapa las manzanas para crecer, pero ten cuidado! Cuantas más manzanas más grande serás y más rápido te moverás.</p>
+                        <p className="element__info--desc">Utiliza las flechas para dirigir la serpiente y comer tantas manzanas como puedas.</p>
                         <p className="element__info--tech">HTML5 - CSS3 - JS</p>
                     </div>
                     <p className='containerIcons'>
