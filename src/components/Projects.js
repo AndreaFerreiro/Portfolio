@@ -129,6 +129,18 @@ const Projects = () => {
                         <a target="_blank" className="linkhref" href="https://github.com/AndreaFerreiro/Connect-Four"><FontAwesomeIcon className='icon' icon={faGithub}/></a>
                     </p>
                  </li>
+                 <li className="element">
+                    <img className="element__img" src={ConnectFour}></img>
+                    <div className="element__info">
+                        <span className="element__info--title">Snake</span>
+                        <p className="element__info--desc">Atrapa las manzanas para crecer, pero ten cuidado! Cuantas más manzanas más grande serás y más rápido te moverás.</p>
+                        <p className="element__info--tech">HTML5 - CSS3 - JS</p>
+                    </div>
+                    <p className='containerIcons'>
+                        <a target="_blank" className="linkhref" href="https://andreaferreiro.github.io/Connect-Four/"><FontAwesomeIcon className='icon' icon={faGlobe}/></a>
+                        <a target="_blank" className="linkhref" href="https://github.com/AndreaFerreiro/Connect-Four"><FontAwesomeIcon className='icon' icon={faGithub}/></a>
+                    </p>
+                 </li>
             </ul>
         </div>
     )
