@@ -7,6 +7,7 @@ import Brujas from '../images/Brujas.png';
 import Junior from '../images/junior.png';
 import Friends from '../images/Friends.jpeg';
 import Mole from '../images/whackAMole.jpeg';
+import Memory from '../images/memory.png';
 import ConnectFour from '../images/connect.png';
 import Snake from '../images/snake.jpeg';
 import {Link} from 'react-router-dom';
@@ -116,6 +117,18 @@ const Projects = () => {
                     <p className='containerIcons'>
                         <a target="_blank" className="linkhref" href="https://andreaferreiro.github.io/Whack-a-mole/"><FontAwesomeIcon className='icon' icon={faGlobe}/></a>
                         <a target="_blank" className="linkhref" href="https://github.com/AndreaFerreiro/Whack-a-mole"><FontAwesomeIcon className='icon' icon={faGithub}/></a>
+                    </p>
+                 </li>
+                 <li className="element">
+                    <img className="element__img" src={Memory}></img>
+                    <div className="element__info">
+                        <span className="element__info--title">Memory Game</span>
+                        <p className="element__info--desc">Encuentra todas las parejas de cartas.</p>
+                        <p className="element__info--tech">HTML5 - CSS3 - JS</p>
+                    </div>
+                    <p className='containerIcons'>
+                        <a target="_blank" className="linkhref" href="https://andreaferreiro.github.io/MemoryGame/"><FontAwesomeIcon className='icon' icon={faGlobe}/></a>
+                        <a target="_blank" className="linkhref" href="https://github.com/AndreaFerreiro/MemoryGame"><FontAwesomeIcon className='icon' icon={faGithub}/></a>
                     </p>
                  </li>
                  <li className="element">
