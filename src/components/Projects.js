@@ -10,6 +10,8 @@ import Mole from '../images/whackAMole.jpeg';
 import Memory from '../images/memory.png';
 import ConnectFour from '../images/connect.png';
 import Snake from '../images/snake.jpeg';
+import Invaders from'../images/spaceInvaders.png';
+import Flappy from '../images/FlappyBird.jpeg';
 import {Link} from 'react-router-dom';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -105,8 +107,20 @@ const Projects = () => {
                         </p>
                     </li>
             </ul>
-            <span className='desc'>Vamos a jugar!!</span>
+            <span className='desc'>Vamos a jugar!! (Solo maquetado en desktop)</span>
             <ul className='list'>
+                <li className="element">
+                    <img className="element__img" src={Flappy}></img>
+                    <div className="element__info">
+                        <span className="element__info--title">Tetris</span>
+                        <p className="element__info--desc">{'Usa la flecha "arriba" para girar la piezas "abajo" para acelerar su bajada y  las flechas --> <-- para desplazarla lateralmente.'}</p>
+                        <p className="element__info--tech">HTML5 - CSS3 - JS</p>
+                    </div>
+                    <p className='containerIcons'>
+                        <a target="_blank" className="linkhref" href="https://andreaferreiro.github.io/Connect-Four/"><FontAwesomeIcon className='icon' icon={faGlobe}/></a>
+                        <a target="_blank" className="linkhref" href="https://github.com/AndreaFerreiro/Connect-Four"><FontAwesomeIcon className='icon' icon={faGithub}/></a>
+                    </p>
+                 </li>
                 <li className="element">
                     <img className="element__img" src={Mole}></img>
                     <div className="element__info">
@@ -148,6 +162,42 @@ const Projects = () => {
                     <div className="element__info">
                         <span className="element__info--title">Snake</span>
                         <p className="element__info--desc">Utiliza las flechas para dirigir la serpiente y comer tantas manzanas como puedas.</p>
+                        <p className="element__info--tech">HTML5 - CSS3 - JS</p>
+                    </div>
+                    <p className='containerIcons'>
+                        <a target="_blank" className="linkhref" href="https://andreaferreiro.github.io/Connect-Four/"><FontAwesomeIcon className='icon' icon={faGlobe}/></a>
+                        <a target="_blank" className="linkhref" href="https://github.com/AndreaFerreiro/Connect-Four"><FontAwesomeIcon className='icon' icon={faGithub}/></a>
+                    </p>
+                 </li>
+                 <li className="element">
+                    <img className="element__img" src={Flappy}></img>
+                    <div className="element__info">
+                        <span className="element__info--title">Flappy-Bird</span>
+                        <p className="element__info--desc">Esquiva los obtáculos para llegar tan lejos como puedas. Utiliza la tecla SPACE para saltar y coger altura.</p>
+                        <p className="element__info--tech">HTML5 - CSS3 - JS</p>
+                    </div>
+                    <p className='containerIcons'>
+                        <a target="_blank" className="linkhref" href="https://andreaferreiro.github.io/Connect-Four/"><FontAwesomeIcon className='icon' icon={faGlobe}/></a>
+                        <a target="_blank" className="linkhref" href="https://github.com/AndreaFerreiro/Connect-Four"><FontAwesomeIcon className='icon' icon={faGithub}/></a>
+                    </p>
+                 </li>
+                 <li className="element">
+                    <img className="element__img" src={Invaders}></img>
+                    <div className="element__info">
+                        <span className="element__info--title">Space-Invaders</span>
+                        <p className="element__info--desc">{'Desplaza el lanza cohetes usando las flechas <-- y --> y dispara presionando la tecla SPACE.'}</p>
+                        <p className="element__info--tech">HTML5 - CSS3 - JS</p>
+                    </div>
+                    <p className='containerIcons'>
+                        <a target="_blank" className="linkhref" href="https://andreaferreiro.github.io/Connect-Four/"><FontAwesomeIcon className='icon' icon={faGlobe}/></a>
+                        <a target="_blank" className="linkhref" href="https://github.com/AndreaFerreiro/Connect-Four"><FontAwesomeIcon className='icon' icon={faGithub}/></a>
+                    </p>
+                 </li>
+                 <li className="element">
+                    <img className="element__img" src={ConnectFour}></img>
+                    <div className="element__info">
+                        <span className="element__info--title">Frooger</span>
+                        <p className="element__info--desc">Conduce la rana hasta la meta esquivando los obstáculos. Emplea las diferentes flechas para moverte por el mapa.</p>
                         <p className="element__info--tech">HTML5 - CSS3 - JS</p>
                     </div>
                     <p className='containerIcons'>
