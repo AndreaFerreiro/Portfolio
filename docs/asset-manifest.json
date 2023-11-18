@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "./static/css/main.a53cb36d.css",
-    "main.js": "./static/js/main.d32269d2.js",
+    "main.js": "./static/js/main.3aaacf35.js",
     "static/media/perfil.jpeg": "./static/media/perfil.c8fb2ca133c45d783f68.jpeg",
     "static/media/Anominous.png": "./static/media/Anominous.b38931f224f26321ec1d.png",
     "static/media/Disney.png": "./static/media/Disney.1209840d82594dd8b8b1.png",
+    "static/media/spaceInvaders.png": "./static/media/spaceInvaders.82bd40964e17deaae084.png",
     "static/media/Brujas.png": "./static/media/Brujas.4c1db10cfc8879cdeed8.png",
     "static/media/RickMorty.png": "./static/media/RickMorty.f710cce3b6cabe619fe8.png",
     "static/media/connect.png": "./static/media/connect.271ef8b830af2249a655.png",
@@ -14,6 +15,7 @@
     "static/media/snake.jpeg": "./static/media/snake.459825c11a6cf0a5045d.jpeg",
     "static/media/Awesome.png": "./static/media/Awesome.8854477a8eb496230b35.png",
     "static/media/whackAMole.jpeg": "./static/media/whackAMole.84cd477f40d5d054dc4b.jpeg",
+    "static/media/FlappyBird.jpeg": "./static/media/FlappyBird.3c376d34a9f5e7f53578.jpeg",
     "static/media/contacto.png": "./static/media/contacto.d15c77f11a4ee91b98b5.png",
     "static/media/twitter.png": "./static/media/twitter.8d26977c4bdf889dc742.png",
     "static/media/github.png": "./static/media/github.4e87ae7ab99586f1825b.png",
@@ -25,10 +27,10 @@
     "static/media/LogoN.png": "./static/media/LogoN.d5df4bb610f218db8f8d.png",
     "index.html": "./index.html",
     "main.a53cb36d.css.map": "./static/css/main.a53cb36d.css.map",
-    "main.d32269d2.js.map": "./static/js/main.d32269d2.js.map"
+    "main.3aaacf35.js.map": "./static/js/main.3aaacf35.js.map"
   },
   "entrypoints": [
     "static/css/main.a53cb36d.css",
-    "static/js/main.d32269d2.js"
+    "static/js/main.3aaacf35.js"
   ]
 }
